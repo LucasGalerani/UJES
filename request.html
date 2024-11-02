@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Diretoria de Finanças</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/ujes.png" alt="" width="50" height="50" />
+        <h1>Diretoria de Finanças</h1>
+    </header>
+    <div class="container-request">
+        <input type="text" name="title" id="title" placeholder="Título" />
+        <h2>Orçamento</h2>
+        <div class="value-cash">
+            <input type="text" name="cash-request" id="cash-request" placeholder="R$" />
+        </div>
+
+        <div class="dropdown">
+            <label for="options">Gênero:</label>
+            <select id="options">
+                <option value="masculino">Melhorias internas</option>
+                <option value="feminino">Compra de recursos</option>
+                <option value="outro">Decoração para evento</option>
+            </select>
+        </div>
+
+        <div class="request-body">
+            <textarea name="body-request-text" id="body-request-text" cols="30" rows="10" placeholder="Digite sua solicitação aqui..."></textarea>
+        </div>
+
+        <div class="request-btn">
+            <button id="submit-button">Enviar</button>
+            <a href="index.html">Cancelar</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
